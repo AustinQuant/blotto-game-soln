@@ -26,8 +26,6 @@ because she has already won the 3 consecutive castles 5,6,7.
 ## Strategy & Approach
 To develop an effective strategy, I ran many thousands of simulations incorporating both randomly generated opponents and selected deterministic strategies. My goal was to identify resource allocations that consistently performed well across a range of scenarios, identify commonalities in successful submissions and avoid weaknesses that can be exploited by trivial solutions.
 
-## Implementation
-
 The code for my simulations and strategy refinement is available in this repository. My solution is implemented using MATLAB.
 ---
 
