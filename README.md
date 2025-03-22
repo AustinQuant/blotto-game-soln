@@ -1,10 +1,10 @@
 # blotto-game-soln
-Solution to Emile Borel's classic Blotto game - implemented for a Jane Street interview process.
+Solution to Emile Borel's classic Blotto game - implemented for an interview process.
 
-# Blotto - Jane Street Game
+# Blotto
 
 ## Introduction
-My solution to the Blotto game, a puzzle featured in a Jane Street hiring process. I employed a round-robin tournament approach to evaluate different strategies and optimise performance.
+My solution to the Blotto game. I employed a round-robin tournament approach to evaluate different strategies and optimise performance.
 
 ## Rules
 Two candidates compete for control over 10 districts, numbered 1 through 10. Each district carries a single vote. Players have 100 units to distribute across these districts as they see fit. The opponent does the same, but allocations are made independently.
@@ -13,7 +13,7 @@ A candidate wins a district if they commit strictly more than *N* times the reso
 
 See (https://en.wikipedia.org/wiki/Blotto_game) for more context.
 
-### Example Match - from Jane Street Documentation
+### Example Match
 | District | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 | D10 |
 |----------|----|----|----|----|----|----|----|----|----|-----|
 | Alex     | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10  |
